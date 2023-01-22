@@ -1,0 +1,70 @@
+header {
+  display: flex;
+  /* background-color: gray; */
+  margin: 1rem;
+  justify-content: space-between;
+
+}
+
+.header__logo {
+  display: flex;
+  font-size: 1.3rem;
+  /* background-color: blue; */
+}
+
+.header__logo--left {
+  color: #004743;
+}
+
+.header__logo--right {
+  color: #FBD103;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: center;
+}
+
+.header__icons--buy-icon {
+  width: 1.2rem;
+  margin-right: 1.2rem;
+  filter: contrast(25%)
+}
+
+.header__icons--heart-icon {
+  width: 1.2rem;
+  margin-right: 1.2rem;
+  cursor: pointer;
+  filter: contrast(25%)
+}
+
+.header__icons--user-icon {
+  width: 1rem;
+  margin-right: 1.2rem;
+  cursor: pointer;
+
+
+
+}
+
+.header__bars {
+  color: #004743;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.fa-comment {
+  display: none;
+}
+
+nav {
+  display: none;
+
+
+}
+
+.line {
+  height: 0.1rem;
+  width: 100%;
+  background-color: #E5E5E5;
+}
