@@ -1,12 +1,19 @@
-/* tablet */
-@media screen and (min-width: 768px) {
-  .container {
-    width: 100%;
+@media screen and(min-width:768px) {
+
+
+  .responsive {
+    display: none;
   }
 
-  .responsive>ul {
+  .main {
     display: flex;
-
+    background-color: aqua;
   }
 
+  .main-list {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 3rem; */
+    text-align: center;
+  }
 }
