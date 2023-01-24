@@ -17,7 +17,5 @@ closeBtn.addEventListener("click", function () {
   nav.style.display = "none";
   barsBtn.style.display = "flex";
   closeBtn.style.display = "none";
-  //   // headerIcons.style.display = "flex";
-  //   formElem.style.display = "none";
   line.style.display = "none";
 });

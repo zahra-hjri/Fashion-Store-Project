@@ -1,19 +1,159 @@
-@media screen and(min-width:768px) {
+@media screen and (min-width: 768px) {
 
+  .header__logo {
+    font-size: 1.5rem;
+    margin: 2rem;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+
+  }
 
   .responsive {
     display: none;
   }
 
+  .main-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .main-list>a>li {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+
+  }
+
+  .header__icons--buy-icon {
+    width: 1.5rem;
+    margin-right: 1.4rem;
+  }
+
+  .header__icons--heart-icon {
+    width: 1.5rem;
+    margin-right: 1.4rem;
+
+  }
+
+  .header__icons--user-icon {
+    width: 1.5rem;
+    margin-right: 1.4rem;
+
+  }
+
+  .header__bars {
+    display: none;
+
+  }
+
+  .search {
+    margin-top: 0rem;
+    margin-left: 1rem;
+
+  }
+
+  .search>input {
+    padding: 0.5rem 0.7rem 0.5rem 2rem;
+  }
+
+  .search>img {
+    width: 2rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.4rem;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  .header__logo {
+    font-size: 2rem;
+    margin: 2rem;
+  }
+
   .main {
     display: flex;
-    background-color: aqua;
+    align-items: center;
+    margin-right: 2rem;
+
+  }
+
+  .responsive {
+    display: none;
   }
 
   .main-list {
     display: flex;
     flex-direction: row;
-    /* margin-top: 3rem; */
-    text-align: center;
+    margin-top: 0;
+    margin-right: 1rem;
+  }
+
+  .main-list>a>li {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+
+  }
+
+  .header__icons {
+    margin-top: -0.5rem;
+    margin-right: 8rem;
+
+  }
+
+  .search>input {
+    padding: 0.5rem 0.7rem 0.5rem 2rem;
+  }
+
+  .header__icons--buy-icon {
+    width: 1.8rem;
+    margin-right: 2rem;
+  }
+
+  .header__icons--heart-icon {
+    width: 1.8rem;
+    margin-right: 2rem;
+
+  }
+
+  .header__icons--user-icon {
+    width: 1.8rem;
+    margin-right: 2rem;
+
+  }
+
+  .header__bars {
+    display: none;
+
+  }
+
+  .search {
+    margin-top: 0rem;
+    margin-left: 6rem;
+
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .main-list>a>li {
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+
+  }
+
+  .search {
+    margin-top: 0rem;
+    margin-left: 3rem;
+
+  }
+
+  .header__icons {
+    margin-top: -0.3rem;
+    margin-right: 10rem;
+
   }
 }
