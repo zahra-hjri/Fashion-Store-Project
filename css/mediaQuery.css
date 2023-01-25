@@ -1,8 +1,12 @@
 @media screen and (min-width: 768px) {
 
+  .header__top {
+    padding: 2rem 0rem 1rem 7rem;
+  }
+
   .header__logo {
     font-size: 1.5rem;
-    margin: 2rem;
+    padding-top: 0.5rem;
   }
 
   .main {
@@ -24,7 +28,7 @@
   }
 
   .main-list>a>li {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 1.2rem;
 
   }
@@ -59,25 +63,31 @@
 
   .search>input {
     padding: 0.5rem 0.7rem 0.5rem 2rem;
+    height: 2.5rem;
   }
 
   .search>img {
     width: 2rem;
     position: absolute;
     right: 1rem;
-    top: 0.7rem;
+    top: 0.2rem;
   }
 
   .header__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding-bottom: 6rem;
 
   }
 
   .header__content-right {
     grid-column: 2/3;
+    margin-top: 2rem;
 
   }
+
 
   .header__content-title {
     grid-row: 1/2;
@@ -92,7 +102,7 @@
   .header__content-title>span {
     color: rgb(177, 177, 177);
     font-size: 1.8rem;
-    text-align: start;
+    text-align: start
   }
 
   .header__content-title>h1 {
@@ -103,14 +113,33 @@
 
   }
 
+  .options {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .collection__right {
+    margin-top: 0rem;
+
+  }
 
 
 }
 
 @media screen and (min-width: 900px) {
+
+
   .header__logo {
     font-size: 2rem;
-    margin: 2rem;
+    padding-left: 2rem;
+    /* margin: 1rem; */
   }
 
   .main {
@@ -143,24 +172,22 @@
 
   }
 
-  .search>input {
-    padding: 0.8rem 0.7rem 0.5rem 2rem;
-  }
+
 
   .header__icons--buy-icon {
     width: 1.8rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 
   .header__icons--heart-icon {
     width: 1.8rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 
   }
 
   .header__icons--user-icon {
-    width: 1.8rem;
-    margin-right: 2rem;
+    width: 1.5rem;
+    margin-right: 1rem;
 
   }
 
@@ -171,16 +198,19 @@
 
   .search {
     margin-top: 0rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
     width: 25rem;
 
   }
 
   .search>img {
-    right: 1rem;
-    top: 0.7rem;
+    right: 0.5rem;
+    top: 0.2rem;
   }
 
+  .search>input {
+    padding: 0.7rem 0.7rem 0.8rem 2rem;
+  }
 
   .header__content-title>span {
     color: rgb(177, 177, 177);
@@ -202,125 +232,64 @@
     margin-top: 2.2rem;
 
   }
-}
 
-@media screen and (min-width: 1024px) {
-  .main-list>a>li {
-    font-size: 1.8rem;
-    margin-left: 1.5rem;
-
-  }
-
-  .search {
-    margin-top: 0rem;
-    margin-left: 3rem;
-    width: 30rem;
-
-  }
-
-  .search>input {
-    height: 3.4rem;
-  }
-
-  .search>img {
-    top: 0.6rem;
-    right: 0.8rem;
-  }
-
-  .header__icons {
-    margin-top: -0.3rem;
-    margin-right: 10rem;
-
-  }
-
-  .header__icons--buy-icon {
-    width: 1.8rem;
-    margin-right: 2.7rem;
-  }
-
-  .header__icons--heart-icon {
-    width: 1.8rem;
-    margin-right: 2.7rem;
-
-  }
-
-  .header__icons--user-icon {
-    width: 1.8rem;
-    margin-right: 2.7rem;
-
-  }
-
-  .main {
-    display: flex;
-    align-items: center;
-    margin-right: 10rem;
-
-  }
-
-
-  .search>img {
-    right: 1rem;
-    top: 0.7rem;
-  }
-
-
-  .header__content-title>span {
-    color: rgb(177, 177, 177);
-    font-size: 2.2rem;
-
-  }
-
-  .header__content-title>h1 {
-    font-size: 3.7rem;
+  .options {
     margin-top: 3rem;
-    line-height: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .btn {
-    height: 6rem;
-    width: 18rem;
-    padding: 1.8rem 2rem 3rem 2rem;
-    font-size: 2rem;
-    margin-top: 2.5rem;
+  .options>div {
+    max-width: 15rem;
 
   }
 
+  .collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+  }
+
+  .collection__right {
+    margin-top: 0rem;
+
+  }
 }
+
 
 @media screen and (min-width: 1024px) {
 
   .header__logo {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
 
   }
 
   .main-list>a>li {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-left: 2rem;
 
   }
 
   .search {
     margin-top: 0rem;
-    margin-left: 8rem;
+    /* margin-left: 2rem; */
 
   }
 
   .header__icons--buy-icon {
     width: 2rem;
-    margin-right: 3.5rem;
+    margin-right: 2rem;
   }
 
   .header__icons--heart-icon {
     width: 2rem;
-    margin-right: 3.5rem;
+    margin-right: 2rem;
 
   }
 
   .header__icons--user-icon {
-    width: 2rem;
-    margin-right: 3.5rem;
+    width: 1.5rem;
+    margin-right: 2rem;
 
   }
 
@@ -348,4 +317,27 @@
     margin-top: 3rem;
 
   }
+
+  .options {
+    margin-top: 10rem;
+
+
+  }
+
+  .options>div {
+    max-width: 18rem;
+
+  }
+
+  .collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .collection__right {
+    margin-top: 0rem;
+
+  }
+
 }

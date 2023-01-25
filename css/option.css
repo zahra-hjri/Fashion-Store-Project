@@ -1,15 +1,16 @@
 .options {
-    /* background-color: white; */
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 .options>div {
     display: flex;
-    justify-content: center;
-    margin: 2rem;
-    padding: 0 0 2rem 2rem;
+    max-width: 25rem;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .options>div>img {
@@ -19,5 +20,10 @@
 }
 
 .options>div>div>strong {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.options>div>div>p {
+    font-size: 0.8rem;
+    color: gray;
 }

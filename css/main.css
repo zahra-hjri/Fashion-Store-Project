@@ -36,7 +36,7 @@ html {
 body {
   font-family: Ubontu;
   overflow-x: hidden;
-  background-color: var(--color-lighter-gray);
+  /* background-color: var(--color-lighter-gray); */
   line-height: 2rem;
 }
 

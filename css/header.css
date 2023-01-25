@@ -1,7 +1,13 @@
+header {
+  background-color: #f7f7f7;
+}
+
 .header__top {
   display: flex;
-  margin: 1rem;
+  padding: 1.5rem 0rem 1rem 1rem;
   justify-content: space-between;
+
+
 
 }
 
@@ -128,6 +134,7 @@
 .header__content-right {
   position: relative;
   margin-top: 3rem;
+
 }
 
 .header__content-title {
