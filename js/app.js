@@ -19,3 +19,16 @@ closeBtn.addEventListener("click", function () {
   closeBtn.style.display = "none";
   line.style.display = "none";
 });
+
+// let products = [
+//   { id: 1, name: "hat", stutus: true },
+//   { id: 2, name: "jacket", stutus: true },
+//   { id: 3, name: "scarf", stutus: true },
+// ];
+
+// products.forEach(function (product) {
+//   // console.log(product);
+//   if (product.id == 1) {
+//     console.log(product);
+//   }
+// });

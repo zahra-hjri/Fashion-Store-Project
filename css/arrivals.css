@@ -1,0 +1,86 @@
+.new-arrivals {
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.new-arrivals__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.new-arrivals__description {
+    font-size: 1rem;
+    color: #777777;
+}
+
+.new-arrivals__menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.new-arrivals__menu>li {
+    border: 0.1rem solid #c0bbbb;
+    border-radius: 2rem;
+    padding: 0.4rem 1.5rem 0.3rem 1.5rem;
+    color: #777777;
+}
+
+.new-arrivals__menu>li:hover {
+    background-color: #FBD103;
+    border: none;
+    color: black;
+
+}
+
+.new-arrivals__menu>li.active {
+    background-color: #FBD103;
+    border: none;
+    color: black;
+    padding: 0.4rem 2.3rem 0.3rem 2.3rem;
+
+}
+
+.slider {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.slider>div {
+    position: relative;
+}
+
+.slider>div>ul {
+    position: absolute;
+    top: 15%;
+    right: 12%;
+}
+
+.slider>div>ul>li>img {
+    filter: contrast(25%);
+}
+
+.slider>div>ul>li {
+    background-color: white;
+    border-radius: 65%;
+    padding: 0.7rem 0.5rem 0.1rem 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.slider>div>img {
+    max-width: 25rem;
+    height: 25rem;
+    width: 100%;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.stars>ul {
+    display: flex;
+}
