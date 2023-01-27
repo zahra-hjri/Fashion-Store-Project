@@ -47,18 +47,31 @@
     margin-bottom: 4rem;
 }
 
+/* .slide-3 {
+    background-image: url(../images/product3.png);
+    border-radius: 2rem;
+    width: 25rem;
+    height: 25rem;
+
+} */
+
 .slider>div {
     position: relative;
+    max-width: 50rem;
+    max-height: 50rem;
+    justify-content: center;
 }
+
 
 .slider>div>ul {
     position: absolute;
-    top: 15%;
-    right: 12%;
+    top: 20%;
+    right: 5%;
 }
 
 .slider>div>ul>li>img {
     filter: contrast(25%);
+    object-fit: fill;
 }
 
 .slider>div>ul>li {
@@ -70,8 +83,8 @@
 }
 
 .slider>div>img {
-    max-width: 25rem;
-    height: 25rem;
+    /* max-width: 29rem; */
+    /* height: 50rem; */
     width: 100%;
 }
 
