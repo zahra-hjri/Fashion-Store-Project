@@ -20,15 +20,48 @@ closeBtn.addEventListener("click", function () {
   line.style.display = "none";
 });
 
-// let products = [
-//   { id: 1, name: "hat", stutus: true },
-//   { id: 2, name: "jacket", stutus: true },
-//   { id: 3, name: "scarf", stutus: true },
-// ];
+// Slider
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    300: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1200: {
+      slidesPerView: 3,
+    },
+    1400: {
+      slidesPerView: 4,
+    },
+  },
+});
 
-// products.forEach(function (product) {
-//   // console.log(product);
-//   if (product.id == 1) {
-//     console.log(product);
-//   }
-// });
+const swiper2 = new Swiper(".swiperReview", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: { 300: { slidesPerView: 1 } },
+});
