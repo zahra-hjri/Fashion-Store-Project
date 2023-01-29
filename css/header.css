@@ -13,7 +13,7 @@ header {
 
 .header__logo {
   display: flex;
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 }
 
 .header__logo--left {
@@ -32,13 +32,13 @@ header {
 }
 
 .header__icons--buy-icon {
-  width: 1.4rem;
+  width: 1.7rem;
   margin-right: 1.2rem;
   filter: contrast(25%)
 }
 
 .header__icons--heart-icon {
-  width: 1.4rem;
+  width: 1.6rem;
   margin-right: 1.2rem;
   cursor: pointer;
   filter: contrast(25%)
@@ -52,7 +52,7 @@ header {
 
 .header__bars {
   color: #004743;
-  font-size: 2rem;
+  font-size: 2.5rem;
   cursor: pointer;
 
 }
@@ -86,9 +86,15 @@ header {
 
 .responsive>ul>li {
   font-size: 1.3rem;
-  padding-top: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   text-align: center;
 
+}
+
+.responsive>ul>li:hover {
+  background-color: #004743;
+  color: #FBD103;
 }
 
 .responsive-lists {
@@ -183,5 +189,5 @@ header {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 2rem;
-
+  margin-bottom: 2rem;
 }

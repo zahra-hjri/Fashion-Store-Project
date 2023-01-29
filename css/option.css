@@ -11,12 +11,16 @@
     margin: auto;
     align-items: center;
     margin-top: 1rem;
+    /* border: 0.1rem solid rgb(238, 231, 231); */
+    /* box-shadow: 0rem 0rem 0.1rem 0rem; */
 }
 
 .options>div>img {
+
     width: 5rem;
     height: 5rem;
     margin-right: 2rem;
+
 }
 
 .options>div>div>strong {

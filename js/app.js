@@ -31,8 +31,8 @@ const swiper = new Swiper(".swiper", {
   },
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".next",
+    prevEl: ".prev",
   },
   breakpoints: {
     300: {
@@ -42,7 +42,7 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 2,
     },
     1200: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
     1400: {
       slidesPerView: 4,
@@ -60,8 +60,8 @@ const swiper2 = new Swiper(".swiperReview", {
   },
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".next",
+    prevEl: ".prev",
   },
   breakpoints: { 300: { slidesPerView: 1 } },
 });

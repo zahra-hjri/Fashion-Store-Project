@@ -261,6 +261,39 @@
   }
 
 
+  .brands-images {
+    display: flex;
+    justify-content: space-around;
+    /* overflow-x: hidden; */
+
+  }
+
+  .brands-images>div>img {
+    padding: 0;
+    width: 9rem;
+    height: 4rem;
+    object-fit: fill;
+  }
+
+
+  .trending-collection {
+    margin-top: 15rem;
+
+    /* margin-bottom: 8rem; */
+  }
+
+  .trending-collection__title {
+    font-size: 8rem;
+    margin-bottom: 3rem;
+  }
+
+  .trending-collection__description {
+    font-size: 1.8rem;
+    color: #777777;
+  }
+
+
+
 }
 
 @media screen and (min-width: 900px) {
@@ -474,6 +507,27 @@
   .new-arrivals__menu {
 
     justify-content: center;
+
+  }
+
+  .brands-images>div>img {
+    padding: 0;
+    width: 12rem;
+    height: 5rem;
+    object-fit: fill;
+  }
+
+  .top-brands>h2 {
+    margin-top: 3rem;
+    font-size: 4rem;
+
+  }
+
+  .top-brands>p {
+
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 
   }
 }
