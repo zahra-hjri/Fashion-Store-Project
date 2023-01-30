@@ -5,12 +5,12 @@
 }
 
 .trending-collection__title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 
 .trending-collection__description {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #585656;
 }
 

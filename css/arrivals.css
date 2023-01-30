@@ -5,7 +5,7 @@
 }
 
 .new-arrivals__title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -16,8 +16,8 @@
 
 .new-arrivals__menu {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 2rem;
+    margin-top: 3rem;
+
 }
 
 .new-arrivals__menu>li {
@@ -25,6 +25,7 @@
     border-radius: 2rem;
     padding: 0.4rem 1.5rem 0.3rem 1.5rem;
     color: #6b6969;
+
 }
 
 .new-arrivals__menu>li:hover {

@@ -241,13 +241,15 @@
 
   .new-arrivals__menu {
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
   }
 
   .new-arrivals__menu>li {
-    font-size: 1.5rem;
-    padding: 0.9rem 3rem 0.7rem 3rem;
+    font-size: 1.3rem;
+    padding: 0.7rem 2rem 0.7rem 2rem;
     color: #777777;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 
   .new-arrivals__menu>li.active {
@@ -277,19 +279,132 @@
 
 
   .trending-collection {
-    margin-top: 15rem;
+    margin-top: 7rem;
 
-    /* margin-bottom: 8rem; */
+    margin-bottom: 7rem;
   }
 
   .trending-collection__title {
-    font-size: 8rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
   }
 
   .trending-collection__description {
     font-size: 1.8rem;
     color: #777777;
+    margin-bottom: 3rem;
+  }
+
+  .reviews__title {
+    font-size: 3rem;
+  }
+
+  .reviews__description {
+    font-size: 1.3rem;
+    color: #777777;
+  }
+
+  .card-reviews {
+    background-image: url(../images/reviews-rectangle.svg);
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .swiperReview {
+    position: relative;
+  }
+
+  .card-reviews>img {
+    width: 14rem;
+    height: 14rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0;
+  }
+
+  .revies-paragraph {
+    max-width: 30rem;
+    margin-left: 3rem;
+    font-size: 1rem;
+  }
+
+  .reviews_name {
+    display: block;
+    margin-left: 3rem;
+    padding-top: 2rem;
+
+  }
+
+  .swiper-button-reviews {
+    position: absolute;
+    top: 17rem;
+    left: 50rem;
+    /* right: auto; */
+    z-index: 1;
+
+  }
+
+  .newsLetter__title {
+    font-size: 4rem;
+    padding-top: 4rem;
+  }
+
+  .newsLetter__description {
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    color: #777777;
+  }
+
+  .newsletter__form {
+    position: relative;
+    margin-top: 4rem;
+  }
+
+  .newsletter__form>input {
+    background-color: #f7f7f7;
+    width: 40rem;
+    border-style: none;
+    padding: 3rem 8rem 3rem 4rem;
+    border-radius: 7rem;
+    outline: none;
+
+  }
+
+  .newsletter__form>input::placeholder {
+    font-size: 2rem;
+  }
+
+  .send-image>img {
+    position: absolute;
+    width: 6rem;
+    background-color: #FBD103;
+    border-radius: 55%;
+    bottom: 1rem;
+    right: 0.5rem;
+    padding: 2rem;
+
+  }
+
+  footer>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .footer__brand {
+    margin-top: 4rem;
+    width: 20rem;
+    margin-left: 13rem;
+  }
+
+  .footer__brand>p {
+    margin-top: 0rem;
+
   }
 
 
@@ -513,7 +628,7 @@
   .brands-images>div>img {
     padding: 0;
     width: 12rem;
-    height: 5rem;
+    height: 4rem;
     object-fit: fill;
   }
 
@@ -529,6 +644,125 @@
     margin-top: 1rem;
     margin-bottom: 3rem;
 
+  }
+
+
+
+  .reviews__title {
+    font-size: 4rem;
+  }
+
+  .reviews__description {
+    font-size: 1.6rem;
+    color: #777777;
+  }
+
+  .swiperReview {
+    position: relative;
+  }
+
+  .card-reviews>img {
+    width: 16rem;
+    height: 16rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+
+  .reviews-paragraph {
+    max-width: 33rem;
+    margin-left: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .swiper-button-reviews {
+    left: 62rem;
+    top: 20rem;
+  }
+
+  .footer__brand {
+    margin-top: 4rem;
+    width: 21rem;
+    margin-left: 14rem;
+  }
+
+  .footer__logo {
+
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .footer__brand>p {
+    /* width: 85%; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+  }
+
+  .footer__help {
+    margin-top: 4rem;
+  }
+
+  .footer__help-title {
+    font-size: 2rem;
+
+  }
+
+  .footer__help-list {
+    margin-top: 0.5rem;
+  }
+
+  .footer__help-list>li {
+    font-size: 1.7rem;
+    padding-top: 1rem;
+  }
+
+  .footer__store {
+    margin-top: 4rem;
+  }
+
+  .footer__store-title {
+    font-size: 2rem;
+  }
+
+  .footer__store-list {
+    margin-top: 0.5rem;
+  }
+
+  .footer__store-list>li {
+    font-size: 1.7rem;
+    padding-top: 1rem;
+  }
+
+  .footer__support {
+    margin-top: 4rem;
+  }
+
+  .footer__support-title {
+    font-size: 2rem;
+  }
+
+  .footer__support-list {
+    margin-top: 0.5rem;
+  }
+
+  .footer__support-list>li {
+    font-size: 1.7rem;
+    padding-top: 1rem;
+  }
+
+  .social-media {
+
+    margin-top: 6rem;
+
+  }
+
+  .social-media>li>a {
+
+
+    font-size: 4rem;
+    padding-left: 1.5rem;
+    /* border-radius: 50%; */
   }
 }
 
@@ -645,5 +879,105 @@
   .collection__right>div {
     margin-top: 3rem;
   }
+
+  .reviews__title {
+    font-size: 5rem;
+  }
+
+  .reviews__description {
+    font-size: 1.8rem;
+    color: #777777;
+    padding-top: 1rem;
+  }
+
+
+
+  .card-reviews>img {
+    width: 18rem;
+    height: 18rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+  }
+
+  .reviews-paragraph {
+    max-width: 35rem;
+    margin-left: 5rem;
+    font-size: 1.4rem;
+  }
+
+  .swiper-button-reviews {
+    left: 70rem;
+    top: 22rem;
+
+  }
+
+  .newsLetter__title {
+    font-size: 6rem;
+    padding-top: 6rem;
+  }
+
+  .newsLetter__description {
+    font-size: 1.7rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #777777;
+  }
+
+  .newsletter__form {
+    position: relative;
+    margin-top: 5rem;
+  }
+
+  .newsletter__form>input {
+    background-color: #f7f7f7;
+    width: 50rem;
+    border-style: none;
+    padding: 5rem 10rem 5rem 6rem;
+    border-radius: 9rem;
+    outline: none;
+
+  }
+
+  .newsletter__form>input::placeholder {
+    font-size: 2.5rem;
+  }
+
+  .send-image>img {
+    position: absolute;
+    width: 8rem;
+    background-color: #FBD103;
+    border-radius: 60%;
+    bottom: 1.5rem;
+    right: 1rem;
+    padding: 3rem;
+
+  }
+
+  footer>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+
+
+  .footer__brand {
+    text-align: start;
+  }
+
+  .footer__brand>p {
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 0rem;
+
+  }
+
+  .footer__logo {
+    display: flex;
+    font-size: 2rem;
+    justify-content: start;
+
+
+  }
+
 
 }
