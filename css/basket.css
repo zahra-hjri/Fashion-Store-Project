@@ -1,0 +1,65 @@
+.main-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #004743;
+}
+
+.added-products {
+    border: 1px solid #bdbaba;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.added-products>img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.definitions {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.definitions>h4 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.definitions>span {
+    font-size: 2rem;
+    color: #74ca4d;
+    display: block;
+    /* padding-top: 5rem; */
+}
+
+.add {
+    padding: 1rem;
+    background-color: #74ca4d;
+    color: white;
+    border-style: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.delete {
+    padding: 1rem;
+    background-color: #e70a0a;
+    color: white;
+    border-style: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btns {
+    margin-top: 2rem;
+}
+
+.btns>span {
+    font-size: 1rem;
+    background-color: #FBD103;
+    border-radius: 50%;
+    padding: 0.5rem 0.8rem;
+}

@@ -91,9 +91,13 @@
   }
 
   .main-list>a>li {
-    font-size: 1.3rem;
-    margin-left: 1.2rem;
+    font-size: 1.5rem;
+    margin-left: 1.6rem;
 
+  }
+
+  .header__icons {
+    margin-top: 1rem;
   }
 
   .header__icons--buy-icon {
@@ -416,8 +420,7 @@
 
   .header__logo {
     font-size: 2rem;
-    padding-left: 2rem;
-    /* margin: 1rem; */
+
   }
 
   .main {
@@ -439,8 +442,8 @@
   }
 
   .main-list>a>li {
-    font-size: 1.5rem;
-    margin-left: 1.2rem;
+    font-size: 1.8rem;
+    margin-left: 2rem;
 
   }
 
@@ -775,15 +778,19 @@
   }
 
   .main-list>a>li {
-    font-size: 1.5rem;
-    margin-left: 2rem;
+    font-size: 2rem;
+    margin-left: 3rem;
 
   }
 
   .search {
     margin-top: 0rem;
-    /* margin-left: 2rem; */
+    margin-left: 2rem;
 
+  }
+
+  .header__icons {
+    padding-top: 1rem;
   }
 
   .header__icons--buy-icon {
