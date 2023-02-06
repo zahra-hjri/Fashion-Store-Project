@@ -20,8 +20,18 @@ header {
   color: #004743;
 }
 
+.header__logo--left:hover {
+  color: #FBD103;
+
+}
+
+
 .header__logo--right {
   color: #FBD103;
+}
+
+.header__logo--right:hover {
+  color: #004743;
 }
 
 .header__icons {
@@ -37,16 +47,32 @@ header {
   filter: contrast(25%)
 }
 
+.header__icons--buy-icon:hover {
+  background-color: #FBD103;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
 .header__icons--heart-icon {
   width: 1.6rem;
   margin-right: 1.2rem;
-  cursor: pointer;
   filter: contrast(25%)
+}
+
+.header__icons--heart-icon:hover {
+  background-color: #FBD103;
+  border-radius: 1rem;
+  cursor: pointer;
 }
 
 .header__icons--user-icon {
   width: 1.4rem;
   margin-right: 1.2rem;
+}
+
+.header__icons--user-icon:hover {
+  background-color: #FBD103;
+  border-radius: 1rem;
   cursor: pointer;
 }
 

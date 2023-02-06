@@ -1,3 +1,6 @@
+const bags = document.querySelectorAll("#bag");
+const containerBasket = document.querySelector(".container-basket");
+
 let products = [
   {
     id: 1,
@@ -56,4 +59,17 @@ let products = [
     isActive: true,
   },
 ];
-export default basket;
+
+function addToBasket() {
+  let newProduct = document.createElement("div");
+  newProduct.setAttribute("class", "added-products");
+  // containerBasket.append(newProduct);
+  console.log(newProduct);
+  console.log(containerBasket);
+}
+
+bags.forEach(function (bag) {
+  bag.addEventListener("click", addToBasket);
+});
+
+export default addToBasket;
